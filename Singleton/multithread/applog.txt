@@ -1,0 +1,2 @@
+[] Thread 1 was created
+[] Thread 2 was created
