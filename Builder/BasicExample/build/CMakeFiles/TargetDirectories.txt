@@ -1,0 +1,3 @@
+C:/Users/Christian Rojas/Desktop/Personales/DesignPatterns/Builder/BasicExample/build/CMakeFiles/MyProject.dir
+C:/Users/Christian Rojas/Desktop/Personales/DesignPatterns/Builder/BasicExample/build/CMakeFiles/edit_cache.dir
+C:/Users/Christian Rojas/Desktop/Personales/DesignPatterns/Builder/BasicExample/build/CMakeFiles/rebuild_cache.dir

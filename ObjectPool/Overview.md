@@ -24,4 +24,27 @@ graph TB;
     D -.Regresa la instancia.-> F
 ```
 
+## Pros
+
+- Reduce la complejidad del acople entre determinadas clases
+- Funciona como el operador new pero es mucho mas flexible
+- Devuelve instancias cacheadas, por lo cual mejora el rendimiento de la aplicación
+- Reduce el uso del heap, evitando allocates y dellocates de información
+- Reduce la fragmentación del heap
+
+## Cons
+- Memoria puede ser usada innecesariamente para almacenar objetos en el pool que no son usados
+- Los objetos del pool pueden quedar en la memoria hasta el final del programa
+- Los objetos que son obtenidos del pool deben ser reiniciados para su uso posterior
+- El trabajo de devolver el objeto al pool es de netamente del cliente
+- Puede ser dificil de acoplar las clases que se pueden poner en el pool 
+
+## When to use
+
+- Cuando hay una constante creación y destrucción de objetos.
+- Allocar objetos en el heap es lento
+- Demaciadas allocaciones pueden llevar a la fragmentación del heap
+- La creación de los objetos resulta costoso
+
+
 

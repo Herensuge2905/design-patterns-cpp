@@ -1,0 +1,3 @@
+C:/Users/Christian Rojas/Desktop/Personales/DesignPatterns/AbstractFactory/Database-Framewok-I/build/CMakeFiles/MyProject.dir
+C:/Users/Christian Rojas/Desktop/Personales/DesignPatterns/AbstractFactory/Database-Framewok-I/build/CMakeFiles/edit_cache.dir
+C:/Users/Christian Rojas/Desktop/Personales/DesignPatterns/AbstractFactory/Database-Framewok-I/build/CMakeFiles/rebuild_cache.dir

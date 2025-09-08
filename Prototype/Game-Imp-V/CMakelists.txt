@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.16)
+
+# Nombre del proyecto
+project(MyProject LANGUAGES CXX)
+
+# Estándar C++20
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+# Busca todos los .cpp en el directorio actual
+file(GLOB SOURCES "*.cpp")
+
+# Crea el ejecutable
+add_executable(${PROJECT_NAME} ${SOURCES})
